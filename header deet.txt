@@ -1,0 +1,23 @@
+Content-Type: Specifies the media type and character encoding of the resource. In this case, it indicates that the content is HTML encoded with ISO-8859-1 character set.
+
+Content-Security-Policy-Report-Only: Defines the Content Security Policy (CSP) for the resource. In this case, it's set to "object-src 'none';base-uri 'self';script-src 'nonce-yMgA0byrZEAN8sSRoiUZrw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp". It specifies restrictions on from where the browser can load content, execute script, etc., and it's set to report only violations without enforcing the policy.
+
+Content-Encoding: Indicates the compression algorithm applied to the content, which is gzip in this case.
+
+Content-Length: Specifies the length of the response body in octets (bytes).
+
+X-XSS-Protection: Specifies Cross-Site Scripting (XSS) protection level. Here it's set to 0, which means XSS protection is disabled.
+
+X-Frame-Options: Defines if the browser should allow the resource to be displayed in a frame or iframe. It's set to SAMEORIGIN, meaning the resource can only be displayed in a frame on the same origin as the page itself.
+
+Set-Cookie: Sets one or more cookies with various attributes such as expiration date, path, domain, security, and SameSite policy.
+
+Date: Indicates the date and time at which the message was sent.
+
+Expires: Specifies the expiration date and time for the resource. "-1" indicates that the resource expires immediately.
+
+Cache-Control: Specifies directives for caching mechanisms in both requests and responses.
+
+P3P: Indicates the Platform for Privacy Preferences (P3P) policy associated with the resource.
+
+Server: Specifies information about the server that's serving the content. In this case, it's "gws", which likely stands for Google Web Server.
